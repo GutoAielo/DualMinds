@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital,wght@1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #3752b2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);
+}
+.main {
+  background-color: whitesmoke;
+  background-image: url('');
+}
+
+.main__container {
+  max-width: 1070px;
+  margin: auto;
+}
+
+header {
+  padding-top: 45px;
+}
+
+.main__container-logoArea {
+  display: flex;
+}
+
+.main__container-logoArea__leftside {
+  flex: 1;
+}
+
+.main__container-logoArea__leftside h1 {
+  margin: 80px 0 30px 0;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 50px;
+}
+
+.main__container-logoArea__leftside .subtitle {
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.main__container-logoArea__leftside .form {
+  margin-bottom: 20px;
+}
+
+.main__container-logoArea__leftside .form input {
+  border: 1px solid var(--primary-color);
+  background: transparent;
+  height: 40px;
+  border-radius: 0.4rem;
+  outline: none;
+  color: var(--primary-color);
+  font-size: 14px;
+  margin-bottom: 80px;
+  width: 300px;
+  padding: 0 10px;
+}
+
+.main__container-logoArea__leftside .form button {
+  height: 40px;
+  border-radius: 0.4rem;
+  background-color: var(--primary-color);
+  color: whitesmoke;
+  font-size: 14px;
+  padding: 0 20px;
+  margin: 0 0 80px 10px;
+  cursor: pointer;
+}
+
+.main__container-logoArea__leftside .form button:hover {
+  opacity: 0.8;
+}
+
+.main__container-logoArea__rightside {
+  flex: 1;
+  background-image: url('');
+  background-size: 100% auto;
+}
