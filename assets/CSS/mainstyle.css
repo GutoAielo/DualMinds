@@ -87,7 +87,7 @@ header {
   background-size: 100% auto;
 }
 
-/************ SECTION INFO*********************/
+/************ SECTION INFO *********************/
 
 .info {
   height: 100px;
@@ -101,4 +101,21 @@ header {
   font-size: 20px;
   font-weight: bold;
   color: var(--primary-color);
+  margin: 0 10px;
+}
+
+.info__text-circle {
+  width: 6px;
+  height: 6px;
+  background-color: grey;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+/************ SECTION INSTRUCTIONS *********************/
+
+/************ SECTION FOOTER *********************/
+footer {
+  background-color: lightblack;
+  height: 200px;
 }
