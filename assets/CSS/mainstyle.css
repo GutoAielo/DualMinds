@@ -86,3 +86,19 @@ header {
   background-image: url('');
   background-size: 100% auto;
 }
+
+/************ SECTION INFO*********************/
+
+.info {
+  height: 100px;
+  border-bottom: 2px solid var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__text {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
