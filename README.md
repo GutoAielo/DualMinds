@@ -1,1 +1,1 @@
-# New web Project for DualMinds 
+# New Web Project for DualMinds 
